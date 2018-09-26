@@ -1,19 +1,19 @@
 Write a program to print Hello World.
 
-#include<stdio.h>
-int main()
+#include<stdio.h>         //#include is a preprocessor directive with stdio.h library file attached to it
+int main()                //main function is invoked with data type int   
 {
-printf("Hello World.");
-return 0;
+printf("Hello World.");   //prints the text "Hello World." on the screen
+return 0;                 //indicates the stop of the program
 }
 
 Write a program to print your name.
 
-#include<stdio.h>
-int main()
+#include<stdio.h>                  //#include is a preprocessor directive with stdio.h library file attached to it
+int main()                         //main function is invoked with data type int
 {
-printf("My name is Gaurav G.");
-return 0;
+printf("My name is Gaurav G.");    //prints the text "My name is Gaurav.G." on the screen
+return 0;                          //indicates the stop of the program
 }
 
 Questions:
